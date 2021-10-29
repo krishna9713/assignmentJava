@@ -1,0 +1,15 @@
+package ArithmeticOperators;
+
+public class NarrowingTypeCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double d = 166.66;
+		long l = (long)d;
+		int i=(int)l;
+		System.out.println("Before conversion:"+d);
+		System.out.println("After conversion:"+l);
+		System.out.println("After conversion:"+i);
+	}
+
+}

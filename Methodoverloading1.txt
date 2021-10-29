@@ -1,0 +1,20 @@
+package ArithmeticOperators;
+
+public class Methodoverloading1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+sum('a',5.8);
+	}
+	//public static void sum(int x, int y) {
+	//	System.out.println("sum(int x, int y)");
+	//}
+	
+	public static void sum(int x, double y) {
+		System.out.println("sum(int a, double y");
+	}
+	public static int sum(double x, float y) {
+		System.out.println("sum(double x, float y");
+		return 8;
+	}
+}

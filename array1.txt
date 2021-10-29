@@ -1,0 +1,21 @@
+package ArithmeticOperators;
+import java.util.*;
+public class Array {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("please enter array size");
+		int x=sc.nextInt();
+		int a[]=new int[x];
+		System.out.println("please enter array value");
+		for(int i=0;i<a.length;i++) {
+			int y=sc.nextInt();
+			a[i]=y;
+		}
+				
+for(int i=0;i<a.length;i++) {
+	System.out.println(a[i]);
+}
+	}
+
+}

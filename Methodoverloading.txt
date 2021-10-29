@@ -1,0 +1,21 @@
+package ArithmeticOperators;
+
+public class Methodoverloading {
+	void methodoverloading(int pass , String name) {
+		System.out.println("Enter the first methodoverloading ");
+	}
+	void methodoverloading(String name, int pass) {
+		System.out.println("Enter the secand methodoverloading");
+	}
+	void methodoverloading(float num, int pass) {
+		System.out.println("Enter the thrid methodoverloading");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Methodoverloading  m =new  Methodoverloading();
+		m.methodoverloading(2345, "krishna");	
+		m.methodoverloading("krishna", 2345);
+		m.methodoverloading(23678647, 2345);
+	}
+
+}

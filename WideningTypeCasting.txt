@@ -1,0 +1,16 @@
+package ArithmeticOperators;
+
+public class WideningTypeCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x=7;
+		long y=x;
+		float z=y;
+		System.out.println("Before conversion, int value"+x);
+		System.out.println("After conversion, int value"+y);
+		System.out.println("After conversion, int value"+z);
+
+	}
+
+}
