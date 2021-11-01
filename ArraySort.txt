@@ -1,0 +1,15 @@
+package ArithmeticOperators;
+
+public class SingleInheritanceMainMethodClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// SingleInheritanceMainMethodClass SingleInheritanceMainMethodClass = new SingleInheritanceMainMethodClass();
+		//SingleInheritanceMainMethodClass = new SingleInheritanceMainMethodClass();
+		//System.out.println(SingleInheritanceMainMethodClass);
+		SingleInheritanceChildClass km=new SingleInheritanceChildClass();
+        km.SingleInheritanceClass();
+        //km.SingleInheritanceClass();
+	}
+
+}
